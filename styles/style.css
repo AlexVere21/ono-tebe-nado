@@ -16,8 +16,6 @@
   justify-self: center;
   width: 148px;
   height: 105px;
-  left: calc(50% - 148px / 2 + 2px);
-  top: 0px;
 }
 
 .header__logo-image {
@@ -28,6 +26,10 @@
 .header__links-list {
   display: flex;
   gap: 31.4px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding-top: 3px;
 }
 
 .header__links-list-item {
@@ -54,9 +56,13 @@
   font-family: "Raleway", sans-serif;
   font-style: normal;
   text-underline-offset: 3.5px;
+  padding-right: 59px;
+  padding-top: 8px;
+  font-size: 18px;
+  letter-spacing: 0.01em;
 }
 
-.header__address {
+.address__text {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -64,6 +70,7 @@
   line-height: 24px;
   /* or 135% */
   color: #000000;
+  padding-top: 6px;
 }
 
 .main {
@@ -84,7 +91,7 @@
 }
 
 .cover__content {
-  margin-bottom: 128px;
+  margin-bottom: 123px;
 }
 
 .overlay {
@@ -102,7 +109,7 @@
   color: #fff;
   font-weight: 700;
   font-size: 100px;
-  line-height: 115%;
+  line-height: 123%;
   letter-spacing: 30px;
   text-transform: uppercase;
   display: grid;
@@ -139,7 +146,7 @@
   display: flex;
   align-items: center;
   justify-content: end;
-  gap: 79px;
+  gap: 82px;
   color: #fff;
 }
 
@@ -194,6 +201,7 @@
   gap: 25px;
   list-style: none;
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .lots__card-list-item {
@@ -267,6 +275,7 @@
   line-height: 23px;
   margin-left: 40px;
   color: #000000;
+  line-height: 2px;
 }
 
 .about {
@@ -309,7 +318,7 @@
   line-height: 47px;
   /* identical to box height */
   text-transform: uppercase;
-
+  padding-top: 104px;
   color: #000000;
 }
 
@@ -318,6 +327,7 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
+  padding-top: 10px;
 }
 
 .about__text p {
@@ -334,11 +344,14 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 180px 50px 88px;
+  padding: 174px 50px 110px;
 }
 
 .footer__menu-list {
   list-style: none;
+  line-height: 21px;
+  padding-right: 24px;
+  padding-top: 7px;
 }
 
 .footer__menu-list-item {
@@ -361,6 +374,7 @@
   display: flex;
   gap: 47px;
   list-style: none;
+  padding-top: 7px;
 }
 
 .footer__social-icon {
